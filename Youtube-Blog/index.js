@@ -10,7 +10,7 @@ const Blog = require("./models/blog");
 const path = require("path");
 const app = express();
 const PORT = 3000;
-connectMongoDB("mongodb://127.0.0.1:27017/Blogify")
+connectMongoDB("Enter your mongoDB server address and database name")
 .then(() => console.log("MongoDB connected"))
 .catch((err) => console.log(err));
 
